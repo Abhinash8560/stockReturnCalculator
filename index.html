@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>stockReturnCalculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>You Invest  We Calculate!</h1>
+      <div class="inputField">
+        <label style="margin-right: 3.5rem;">Initial price</label>
+        <input type="text" id="initial-price" />
+      </div>
+      <div class="inputField">
+        <label style="margin-right: 1rem;">Quantity of Stocks</label> <input id="quantity-stocks" />
+      </div>
+      <div class="inputField"><label style="margin-right: 2.9rem;">Current Price</label> <input id="current-price" /></div>
+
+      <button id="submit-btn" style="margin-left: 1rem;">calculate!</button>
+      <div id="output"></div>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
